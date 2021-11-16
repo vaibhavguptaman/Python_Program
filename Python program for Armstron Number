@@ -1,0 +1,8 @@
+a=input("enter the number :")
+sum=0
+for i in a:
+    sum=sum+(int(i)**3)
+if sum==int(a):
+    print("Number is armstrong")
+else:
+    print("Number is not armstrong")    																																																																																			
