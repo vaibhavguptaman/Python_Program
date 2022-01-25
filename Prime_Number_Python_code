@@ -1,7 +1,7 @@
 a=eval(input("enter the number"))
 
 x=0
-for i in range(2,a//2):
+for i in range(2,a):
     if (a%i==0):
         x=1
         break
